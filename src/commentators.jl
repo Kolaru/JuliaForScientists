@@ -1,7 +1,16 @@
+export summarize_comments
 export emo, fervent, personalized, wrong
 
+function summarize_comments()
+    for commentator in [emo, fervent, personalized, wrong]
+        println("[$commentator]")
+        commentator()
+        println()
+    end
+end
+
 function emo()
-    println("I wish knowledge about julia would fill this void in my soul.")
+    println("I wish knowledge about julia would fill the void in my soul.")
 end
 
 function fervent()
