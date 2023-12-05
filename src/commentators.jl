@@ -22,5 +22,5 @@ function personalized()
 end
 
 function wrong()
-    println("Having the workshop on the moon is great.")
+    println("Having the workshop with this snow is great.")
 end

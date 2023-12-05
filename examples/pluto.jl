@@ -41,6 +41,8 @@ end
 md"""
 ## Exercise
 
+### Part 1
+
 Plot a Lissajou curve.
 
 A lissajou curve has equation
@@ -48,11 +50,16 @@ A lissajou curve has equation
 x = \sin(at + \phi) \qquad y = \sin(bt)
 ```
 
-Define three sliders, for $a$, $b$ and $\phi$.
-
 Generate a vectors of points for $x$ and $y$.
 
-Plot it and play with it.
+Plot it the curve for $a = 4$, $b = 6$, $\phi = 0$.
+
+### Part 2
+
+Change your code  so that the the values of $a$, $b$ and $\phi$ are define with three sliders.
+
+Play with it.
+
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
